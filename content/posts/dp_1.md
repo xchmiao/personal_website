@@ -13,7 +13,7 @@ hideBackToTop: false
 ---
 
 # Fun Fact
-As a machine learning engineer, I’m more used to training neural networks than wrestling with very software engineering oriented coding puzzles. 
+I used to be pretty intimidated by dynamic programming (DP). Every time I saw those recursive formulas or multi-dimensional DP tables, I wanted to run for the hills.
 
 Yet, during the winter break, when a friend asked me for help tackling her coding interviews, I found myself knee-deep in dynamic programming problems—one of the most “why-do-I-need-this?” and hair-pulling categories out there. Ironically, what started as a favor turned into a surprisingly fun flavor. 
 
