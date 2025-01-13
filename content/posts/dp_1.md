@@ -21,8 +21,20 @@ In this (my very first!) blog post, I’d like to share the “aha!” moments w
 
 For the rest, I'll cover:
 
-1. Recap what **0/1 and Unbounded Knapsack**
-2. The four essential elements of a DP algorithm
-3. Sample code snippets that show how to apply this DP framework in practice
+1.	A summary of common DP problem types related to the Knapsack Problem
+2.	The four essential components of a dynamic programming solution
+3.	Sample code snippets demonstrating how to apply this DP framework in practice
 
+# Problem Overview
+
+One of the most common types of dynamic programming (DP) problems involves selecting elements from a set or list, using each either once or multiple times, to achieve a specific goal. This goal could be finding a min/max value (e.g., [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)) or determining the number of ways to reach a target (e.g., [Coin Change II](https://leetcode.com/problems/coin-change-2/)).
+
+More generally, these problems aim to achieve a goal under certain constraints:
+
+- **Goal:** Find the min/max value or determine all possible ways to achieve a specific **outcome**.
+- **Constraints:**
+  1. The **frequency** to use each element.
+     1. Once -> 0/1 Knapsack
+     2. Unlimited times -> Unbounded Knapsack
+  2. Requirements of the **outcomes**, eg. a target sum.
 
