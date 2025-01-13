@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "johndoe"
+title = "xiaochang-miao"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -17,11 +17,11 @@ pagerSize = 6
 noClasses = false
 
 [params]
-author = "John Doe"
+author = "Xiaochang Miao"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
-keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+description = "Xiaochang Miao's personal website"
+keywords = "blog,personal,machine learning,developer"
+info = ["Machine Learning", "physicist"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
