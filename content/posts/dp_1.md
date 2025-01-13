@@ -12,12 +12,17 @@ showTags: false
 hideBackToTop: false
 ---
 
-# Fun Fact
+# Context
 I used to be pretty intimidated by dynamic programming (DP). Every time I saw those recursive formulas or multi-dimensional DP tables, I wanted to run for the hills.
 
-Yet, during the winter break, when a friend asked me for help tackling her coding interviews, I found myself knee-deep in dynamic programming problems—one of the most “why-do-I-need-this?” and hair-pulling categories out there. Ironically, what started as a favor turned into a surprisingly fun flavor. 
+Yet, during the winter break, I found myself knee-deep in dynamic programming problems—one after going through tens of DP problems. 
 
-In this (my very first!) blog post, I’ll share the “aha!” moments I had while unraveling two of the most classic Knapsack problems: **0/1 and Unbounded Knapsack**. Here’s hoping it saves you from a few headaches as you tackle these on your own! Let’s get started.
+In this (my very first!) blog post, I’d like to share the “aha!” moments with DP starting from the most classic Knapsack problems: **0/1 and Unbounded Knapsack**. I hope it spares you at least a few hair-pulling moments if you’re about to dive into the wacky world of DP!
 
+For the rest, I'll cover:
+
+1. Recap what **0/1 and Unbounded Knapsack**
+2. The four essential elements of a DP algorithm
+3. Sample code snippets that show how to apply this DP framework in practice
 
 
