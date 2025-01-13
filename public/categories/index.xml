@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on johndoe</title>
+    <title>Categories on xmiao</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on johndoe</description>
+    <description>Recent content in Categories on xmiao</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Syntax</title>
-      <link>http://localhost:1313/categories/syntax/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Theme Demo</title>
-      <link>http://localhost:1313/categories/theme-demo/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/theme-demo/</guid>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
   </channel>
