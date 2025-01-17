@@ -62,7 +62,7 @@ If consider the DP table as (key, value) pairs, the main questions to ask are:
 
 Remember we talked about the goal and constraints in the beginning. One way that typically works is to think of **the constraints as the keys, while the outcomes are the values. The number of constraints decides the dimensions of the DP table**.
 
-Let's look at [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) as an example:
+#### Example: [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 
 Given a collection of candidate numbers (`candidates`) and a target number (`target`), find all unique combinations where the candidate numbers sum to `target`. Each number in `candidates` may only be used once.
 
@@ -73,8 +73,23 @@ Given a collection of candidate numbers (`candidates`) and a target number (`tar
 - The **goal**: find all unique combinations that sum to `target`
   - Hence, the value is the list of combinations that sum to an `intermediate target` (less than `target`)
 
-
 ### State Transition
+
+After defining the state, now let's think about how to decompose the problem into smaller subproblems, i.e. how to transition from one state to another.
+
+The way to think about this is to consider the **constraints** and **goal** again. For each state, we typically need to make a decision:
+
+
+1. **For each element in the input:**
+   - Should we include it in our solution?
+   - If yes, how does it affect our constraints and bring us closer to the goal?
+
+3. **The transition usually follows this pattern:**
+   - Take the element: `dp[current_state] = combine(dp[previous_state], current_element)`
+   - Skip the element: `dp[current_state] = dp[previous_state]`
+   - Choose the better/desired outcome between these options
+
+
 
 
 ### State Initialization
