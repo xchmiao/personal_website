@@ -42,15 +42,35 @@ More generally, these problems aim to achieve a goal under certain constraints:
 
 ## The 4-Step Framework for Dynamic Programming
 
-The essence of DP algorithm is to trade in the space complexity to achieve a more performant time complexity usually of its DFS counterpart(sole recursion without memoization). Therefore, it's very common to assume we are going to define a DP table to store some intermediate results. We can start the DP table either as an 1D or 2D list / hashmap. Every element or entry in the DP table is the so-called **state**.
+Dynamic Programming (DP) improves time complexity by storing intermediate results in a DP table, trading space for speed compared to basic recursion. This table can be a 1D/2D array or hashmap, where each entry represents a **state** - a snapshot of our subproblem's solution.
 
-As I code up DP algorithms, I like to follow a **4-step framework** around the aka state to organize my thoughts. 
+As I code up DP algorithms, I like to follow a **4-step framework** centered around the concept of state to organize my thoughts.
 
 This framework includes:
 
-- **State Definition**
-- **State Transition**
-- **State Initialization**
-- **Final Result**
+1. State Definition
+2. State Transition
+3. State Initialization
+4. Final Result
 
 ### State Definition
+The state definition is the most crucial step in solving a DP problem. It determines what information we need to store in our DP table to solve subproblems.
+
+If consider the DP table as (key, value) pairs, the main questions to ask are:
+
+- What are the keys / values of the DP table represent?
+
+Remember we talked about the goal and constraints in the beginning. One way that typically works is to think of **the constraints as the keys, while the outcomes are the values. The number of constraints decides the dimensions of the DP table**.
+
+Let's look at [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) as an example:
+
+Given a collection of candidate numbers (`candidates`) and a target number (`target`), find all unique combinations where the candidate numbers sum to `target`. Each number in `candidates` may only be used once.
+
+- The **constraints** are:
+  - The frequency to use each number from `candidates`: only once (0/1 knapsack)
+  - The target sum
+  
+- The **goal**: find all unique combinations that sum to `target`
+  - Hence, the value is the list of combinations that sum to an `intermediate target` (less than `target`)
+
+

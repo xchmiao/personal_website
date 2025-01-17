@@ -21,7 +21,13 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Bio'
 homeIntroContent = """
-I am an Machine Learning engineer and interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+I am a Machine Learning Engineer and interested in a range of topics, including 
+ - Machine Learning
+ - Large Language Models
+ - AI Agent
+ - Recommendation Systems
+ - Computational Ads: Auction & Ranking
+ - Information Retrieval
 """
 
 # Collection to display on home
